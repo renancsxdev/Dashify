@@ -390,7 +390,13 @@ export default function LandingPage() {
                   </div>
                   <p className="mt-4 text-muted-foreground">{t("everythingYouNeed")}</p>
                   <Button className="mt-6 w-full" size="lg">
-                    {t("buyNow")}
+                    <a
+                      href="https://pay.kirvano.com/2d913d32-2469-47a0-a799-f16a2b7d15e6"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {t("buyNow")}
+                    </a>
                   </Button>
                   <p className="mt-4 text-sm text-amber-600 dark:text-amber-400 font-medium">{t("limitedOffer")}</p>
                   <div className="mt-6 space-y-2">
